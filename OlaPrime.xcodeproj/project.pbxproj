@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F69DAA501A83686A00F71611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DAA4F1A83686A00F71611 /* main.m */; };
+		F69DAA531A83686A00F71611 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DAA521A83686A00F71611 /* AppDelegate.m */; };
+		F69DAA561A83686A00F71611 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DAA551A83686A00F71611 /* ViewController.m */; };
+		F69DAA591A83686A00F71611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69DAA571A83686A00F71611 /* Main.storyboard */; };
+		F69DAA5B1A83686A00F71611 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69DAA5A1A83686A00F71611 /* Images.xcassets */; };
+		F69DAA5E1A83686A00F71611 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DAA5C1A83686A00F71611 /* LaunchScreen.xib */; };
+		F69DAA6A1A83686A00F71611 /* OlaPrimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DAA691A83686A00F71611 /* OlaPrimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69DAA641A83686A00F71611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69DAA421A83686A00F71611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69DAA491A83686A00F71611;
+			remoteInfo = OlaPrime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F69DAA4A1A83686A00F71611 /* OlaPrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaPrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69DAA4E1A83686A00F71611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69DAA4F1A83686A00F71611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69DAA511A83686A00F71611 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F69DAA521A83686A00F71611 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F69DAA541A83686A00F71611 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F69DAA551A83686A00F71611 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F69DAA581A83686A00F71611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69DAA5A1A83686A00F71611 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F69DAA5D1A83686A00F71611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F69DAA631A83686A00F71611 /* OlaPrimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlaPrimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69DAA681A83686A00F71611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69DAA691A83686A00F71611 /* OlaPrimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OlaPrimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69DAA471A83686A00F71611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69DAA601A83686A00F71611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69DAA411A83686A00F71611 = {
+			isa = PBXGroup;
+			children = (
+				F69DAA4C1A83686A00F71611 /* OlaPrime */,
+				F69DAA661A83686A00F71611 /* OlaPrimeTests */,
+				F69DAA4B1A83686A00F71611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69DAA4B1A83686A00F71611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69DAA4A1A83686A00F71611 /* OlaPrime.app */,
+				F69DAA631A83686A00F71611 /* OlaPrimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69DAA4C1A83686A00F71611 /* OlaPrime */ = {
+			isa = PBXGroup;
+			children = (
+				F69DAA511A83686A00F71611 /* AppDelegate.h */,
+				F69DAA521A83686A00F71611 /* AppDelegate.m */,
+				F69DAA541A83686A00F71611 /* ViewController.h */,
+				F69DAA551A83686A00F71611 /* ViewController.m */,
+				F69DAA571A83686A00F71611 /* Main.storyboard */,
+				F69DAA5A1A83686A00F71611 /* Images.xcassets */,
+				F69DAA5C1A83686A00F71611 /* LaunchScreen.xib */,
+				F69DAA4D1A83686A00F71611 /* Supporting Files */,
+			);
+			path = OlaPrime;
+			sourceTree = "<group>";
+		};
+		F69DAA4D1A83686A00F71611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69DAA4E1A83686A00F71611 /* Info.plist */,
+				F69DAA4F1A83686A00F71611 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F69DAA661A83686A00F71611 /* OlaPrimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69DAA691A83686A00F71611 /* OlaPrimeTests.m */,
+				F69DAA671A83686A00F71611 /* Supporting Files */,
+			);
+			path = OlaPrimeTests;
+			sourceTree = "<group>";
+		};
+		F69DAA671A83686A00F71611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69DAA681A83686A00F71611 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69DAA491A83686A00F71611 /* OlaPrime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69DAA6D1A83686A00F71611 /* Build configuration list for PBXNativeTarget "OlaPrime" */;
+			buildPhases = (
+				F69DAA461A83686A00F71611 /* Sources */,
+				F69DAA471A83686A00F71611 /* Frameworks */,
+				F69DAA481A83686A00F71611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaPrime;
+			productName = OlaPrime;
+			productReference = F69DAA4A1A83686A00F71611 /* OlaPrime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69DAA621A83686A00F71611 /* OlaPrimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69DAA701A83686A00F71611 /* Build configuration list for PBXNativeTarget "OlaPrimeTests" */;
+			buildPhases = (
+				F69DAA5F1A83686A00F71611 /* Sources */,
+				F69DAA601A83686A00F71611 /* Frameworks */,
+				F69DAA611A83686A00F71611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69DAA651A83686A00F71611 /* PBXTargetDependency */,
+			);
+			name = OlaPrimeTests;
+			productName = OlaPrimeTests;
+			productReference = F69DAA631A83686A00F71611 /* OlaPrimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69DAA421A83686A00F71611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bharath Nagaraj Rao";
+				TargetAttributes = {
+					F69DAA491A83686A00F71611 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F69DAA621A83686A00F71611 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F69DAA491A83686A00F71611;
+					};
+				};
+			};
+			buildConfigurationList = F69DAA451A83686A00F71611 /* Build configuration list for PBXProject "OlaPrime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69DAA411A83686A00F71611;
+			productRefGroup = F69DAA4B1A83686A00F71611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69DAA491A83686A00F71611 /* OlaPrime */,
+				F69DAA621A83686A00F71611 /* OlaPrimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69DAA481A83686A00F71611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69DAA591A83686A00F71611 /* Main.storyboard in Resources */,
+				F69DAA5E1A83686A00F71611 /* LaunchScreen.xib in Resources */,
+				F69DAA5B1A83686A00F71611 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69DAA611A83686A00F71611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69DAA461A83686A00F71611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69DAA561A83686A00F71611 /* ViewController.m in Sources */,
+				F69DAA531A83686A00F71611 /* AppDelegate.m in Sources */,
+				F69DAA501A83686A00F71611 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69DAA5F1A83686A00F71611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69DAA6A1A83686A00F71611 /* OlaPrimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69DAA651A83686A00F71611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69DAA491A83686A00F71611 /* OlaPrime */;
+			targetProxy = F69DAA641A83686A00F71611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69DAA571A83686A00F71611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69DAA581A83686A00F71611 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F69DAA5C1A83686A00F71611 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69DAA5D1A83686A00F71611 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69DAA6B1A83686A00F71611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F69DAA6C1A83686A00F71611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69DAA6E1A83686A00F71611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OlaPrime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F69DAA6F1A83686A00F71611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OlaPrime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F69DAA711A83686A00F71611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OlaPrimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OlaPrime.app/OlaPrime";
+			};
+			name = Debug;
+		};
+		F69DAA721A83686A00F71611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OlaPrimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OlaPrime.app/OlaPrime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69DAA451A83686A00F71611 /* Build configuration list for PBXProject "OlaPrime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69DAA6B1A83686A00F71611 /* Debug */,
+				F69DAA6C1A83686A00F71611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69DAA6D1A83686A00F71611 /* Build configuration list for PBXNativeTarget "OlaPrime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69DAA6E1A83686A00F71611 /* Debug */,
+				F69DAA6F1A83686A00F71611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F69DAA701A83686A00F71611 /* Build configuration list for PBXNativeTarget "OlaPrimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69DAA711A83686A00F71611 /* Debug */,
+				F69DAA721A83686A00F71611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69DAA421A83686A00F71611 /* Project object */;
+}
