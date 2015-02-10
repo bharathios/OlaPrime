@@ -2,21 +2,49 @@
 //  AppDelegate.m
 //  OlaPrime
 //
-//  Created by Bharath Nagaraj Rao on 05/02/15.
+//  Created by Bharath Nagaraj Rao on 07/02/15.
 //  Copyright (c) 2015 Bharath Nagaraj Rao. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <GoogleMaps/GoogleMaps.h>
+//#import <Parse/Parse.h>
+
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+@synthesize selectedMenuItem;
+
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    self.selectedMenuItem = 0;
+    
+    
+    //Commenting this parse as I cannot implement push notification with parse due to certificates & other infrastructure
+    
+    /*[Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"APP_ID"];
+
+    
+    
+    
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"foo"] = @"bar";
+    [testObject saveInBackground];
+    */
+    
+    
+    [GMSServices provideAPIKey:@"PROVIDE_YOUR_APP_ID"];
+    
     return YES;
 }
 

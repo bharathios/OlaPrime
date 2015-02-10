@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  OlaPrime
+
+  Created by Bharath Nagaraj Rao on 07/02/15.
+  Copyright (c) 2015 Bharath Nagaraj Rao. All rights reserved.
+*/
+
+
+// Menu Screen
+
+"MENU_TITLE"        =       "ONE DAY OUTING";
+
+"NEAR_BY"           =       "Near By";
+
+"PLACES"            =       "Places";
+
+"FAVOURITES"            =   "OLA Friends";
+
+"ABOUT_US"              =   "About Us";
+
+
+//About Us Screen
+
+"ABOUT_US_TITLE"    =    "";
+
+"ABOUT_US_DETAILS"  =    "We are a bunch of techie, travel junkies who believe in making your weekend outing more meaningful.";
+
+"ABOUT_US_FEEDBACK"  =    "Your feedback is appreciated.";
+
+"FACEBOOK"          =   "VIA FACEBOOK";
+
+"EMAIL"          =   "VIA EMAIL";
+
+"EMAIL_FAILURE"     =   "Oops! We did not recieve your feedback. Check your internet connection & send it again.";
+
+"EMAIL_SUCCESS"     =   "Thank you for your feedback!";
+
